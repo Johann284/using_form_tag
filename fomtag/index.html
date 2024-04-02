@@ -6,21 +6,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        <label for="um"></label>
-        <input type="text" name="um"><br><br>
-        <label for="dois"></label>
-        <input type="text" name="dois"><br><br>
-        <label for="tres"></label>
-        <input type="text" name="tres"><br><br>
-        <label for="quatro"></label>
-        <input type="text" name="quatro"><br><br>
-        <label for="cinco"></label>
-        <input type="text" name="cinco"><br><br>
-        <label for="seis"></label>
-        <input type="text" name="seis"><br><br>
-        <label for="sete"></label>
-        <input type="text" name="sete"><br><br>
-    </form>
+    <div class="flex">
+        <form>
+            <h2>Tipos de Form</h2>
+            <label for="um">Este é para textos</label>
+            <input type="text" name="um"><br><br>
+            <label for="dois">Este é para escrever senhas, e outras coisas extremamente secretas</label>
+            <input type="password" name="dois"><br><br>
+            <label for="tres">Este é para selecionar, de forma onde pode ser selecionado vários, um ou nenhum</label>
+            <input type="checkbox" name="tres">
+            <input type="checkbox" name="tres">
+            <input type="checkbox" name="tres">
+            <input type="checkbox" name="tres"><br><br>
+            <label for="quatro">Este é para selecionar, de forma onde pode ser selecionado apenas um, e quando for selecionado não pode ser tirado, somente alterado</label>
+            <input type="radio" name="quatro">
+            <input type="radio" name="quatro">
+            <input type="radio" name="quatro">
+            <input type="radio" name="quatro"><br><br>
+            <label for="cinco">Este é um botão que, usando algum script ou código como fonte, fará alguma coisa quando for pressionado, isso muda de código para código</label>
+            <input type="submit" name="cinco"><br><br>
+            <label for="seis">Este é para importar arquivos</label>
+            <input type="file" name="seis"><br><br>
+            <label for="sete">Este é para digitar emails</label>
+            <input type="email" name="sete"><br><br>
+            <label for="sete">Este é para números</label>
+            <input type="number" name="sete"><br><br>
+            <label for="sete">Este é para datas</label>
+            <input type="date" name="sete"><br><br>
+        </form>
+        <div id="img-div">
+            <img src="../visual/FPUzuRRVsAQPFrV.jpg" alt="">
+        </div>
+    </div>
+    <div>
+        <form>
+            <h2>Container form</h2>
+            <label for="umd">O container form é usado, normalmente, para coletar informações, em formato de input, de possíveis usuários do arquivo ou site, para melhor funcionamento
+                é usado para fazer essas informações seres usadas, absorvidas e enviadas até algum destinatário. Porém o container form em sí, é o local no código onde é contido os
+                inputs, como texto, data, checkbox, e os suas tags internas são label, para ter o texto onde isso está sendo escrito, que fará uma conexão, diferentemente da tag "p" 
+                que não tem essa mesma função. A segunda tag normalmente usada é o input, com o objetivo final de recolher, absorver, dentre outros, de informações de um possível usuário.
+            </label>
+            <p>Para os dados serem enviados para algum lugar, é usado o post, que é um dos tipos de method, "método" em português, que funciona como uma referência de algum tipo de 
+                script, onde outro arquivo contém um código, e este código realiza algo, que normalmente será o "recolhimento" destes mesmos dados.
+            </p>
+        </form>
+    </div>
 </body>
 </html>
